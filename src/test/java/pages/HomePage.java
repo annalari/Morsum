@@ -13,8 +13,8 @@ public class HomePage {
         page.selectOption("select.product_sort_container","hilo");
     }
 
-    public void selectItem() {
-        page.click("#item_4_title_link");
+    public void selectSecondItem() {
+        page.click("//div[@class=\"inventory_item\"][2]//a/div");
     }
 
     public void clickCartIcon() {
