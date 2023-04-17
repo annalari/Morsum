@@ -14,6 +14,6 @@ public class CartPage {
 
     public void assertItemsInCart() {
         assertThat(page.locator("div.cart_quantity")).hasText("1");
-        assertThat(page.locator("#item_4_title_link")).hasText("Sauce Labs Backpack");
+        assertThat(page.locator("#item_0_title_link")).hasText("Sauce Labs Bike Light");
     }
 }

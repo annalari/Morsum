@@ -55,4 +55,11 @@ public class AddProductToCartStep {
         cartPage.assertItemsInCart();
     }
 
+
+    @When("user add to cart the first {string} elements")
+    public void user_add_to_cart_the_first_elements(String number) {
+        homePage.addMoreThenOneItemToCart(number);
+    }
+
+
 }

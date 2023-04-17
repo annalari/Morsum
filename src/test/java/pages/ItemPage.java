@@ -10,6 +10,6 @@ public class ItemPage {
     }
 
     public void clickAddToCart() {
-        page.locator("#add-to-cart-sauce-labs-backpack").click();
+        page.locator("#add-to-cart-sauce-labs-bike-light").click();
     }
 }
