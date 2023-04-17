@@ -34,10 +34,11 @@ public class AddProductToCartStep {
         homePage.sortItemsHighLow();
     }
 
-    @And("user selects second item from the list")
-    public void user_selects_second_item_from_the_list() {
-        homePage.selectSecondItem();
+    @And("user selects sauce labs bike light")
+    public void user_selects_sauce_labs_bike_light() {
+        homePage.selectItem();
     }
+
 
     @And("user add this element to cart")
     public void user_add_this_element_to_cart() {

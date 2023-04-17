@@ -3,7 +3,7 @@ Feature: Add Product to Cart
   Scenario Outline: Add Product to Cart
     Given User logged in the app using username "<UserName>" and password "<Password>"
     When user sorts by prices high to low
-    And user selects second item from the list
+    And user selects sauce labs bike light
     And user add this element to cart
     And user goes to cart
     Then user validate that all products selected are in the cart
