@@ -50,9 +50,9 @@ public class AddProductToCartStep {
         homePage.clickCartIcon();
     }
 
-    @Then("user validate that all products selected are in the cart")
-    public void user_validate_that_all_products_selected_are_in_the_cart() {
-        cartPage.assertItemsInCart();
+    @Then("user validate that all {string} products selected are in the cart")
+    public void user_validate_that_all_products_selected_are_in_the_cart(String number) {
+        cartPage.assertMoreThanOneItemInCart(number);
     }
 
 
